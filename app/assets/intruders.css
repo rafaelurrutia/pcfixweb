@@ -1,0 +1,157 @@
+#information_title {
+    margin-top: 77px;
+    text-align: center;
+}
+.information_title {
+    font-family: NeoSansStdLight;
+    font-size: 16pt;
+    color: #2d2d2d;
+}
+#information_main {
+    margin-top: 77px;
+    width: 550px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fa6800;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#information_section {
+    width: 250px;
+    height: 120px;
+    float: left;
+}
+#information_image {
+    width: 40px;
+    float: left;
+}
+#information_image {
+    width: 50px;
+    float: left;
+}
+#information_section2 {
+    width: 50px;
+    float: left;
+}
+#information_subtitle {
+    width: 50px;
+    float: left;
+}
+#information_text {
+    width: 190px;
+    float: left;
+}
+.border_bottom {
+    border-bottom-style: solid;
+    border-bottom-color: #d3d3d3;
+    border-bottom-width: 1px;
+}
+.repair_description {
+    font-family: NeoSansStdLight;
+    font-size: 14pt;
+    color: #2d2d2d;
+}
+#global_buttonbegin {
+    background-color: #2dbdb6;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #28a59c;
+    height: 37px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 40px;
+}
+.global_buttonbegin {
+    font-family: NeoSansStdMedium;
+    font-size: 16pt;
+    color: #ffffff;
+}
+#intruders_table tbody,
+#intruders_table thead {
+    display: block;
+}
+#intruders_table {
+    width: 578px;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #e5e5e5;
+    font-family: NeoSansStdLight;
+    font-size: 11pt;
+    color: #2d2d2d;
+}
+#intruders_table tbody {
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#intruders_table > tbody > tr > td {
+    height: 50px;
+}
+#intruders_table > thead > tr {
+    height: 50px;
+}
+#intruders_finddevices {
+    margin-bottom: 20px;
+}
+.intruders_finddevices {
+    font-family: NeoSansStdLight;
+    font-size: 14pt;
+    color: #2d2d2d;
+}
+#intruders_table thead tr th {
+    width: 20%;
+    border-bottom-style: solid;
+    border-bottom-color: #e5e5e5;
+    border-bottom-width: 1pt;
+}
+#intruders_table tbody tr td {
+    width: 25%;
+    border-bottom-style: solid;
+    border-bottom-color: #e5e5e5;
+    border-bottom-width: 1pt;
+}
+#loadingTable {
+    display: block;
+    position: absolute;
+    top: 311px;
+    left: 122px;
+    z-index: 100;
+    width: 575px;
+    height: 199px;
+    background-color: #ffffff;
+    opacity: 0.9;
+    /*
+    background-image: url("../../assets/img/iconoEspera.gif");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    */
+}
+.intrudersImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    margin: -23px 0 0 -23px;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

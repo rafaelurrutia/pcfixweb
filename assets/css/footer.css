@@ -1,0 +1,22 @@
+/*footer*/
+#footer{
+    position: absolute;
+    background-color: #000000; /* from vtr */
+    height: 28px; /* from vtr */
+    width: 792px;
+    margin: auto;
+    bottom: 15px;
+}
+
+#footer #logoIconoTexto{
+    float: right;
+    height: 19px; /* from vtr */
+    width: 80px;
+    margin-right: 10px; /* from vtr */
+}
+
+#footer .logoIconoTexto{
+    position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+}

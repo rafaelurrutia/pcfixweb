@@ -1,0 +1,254 @@
+.index_box {
+    width: 144px;
+    float: left;
+    margin-left: 12px;
+}
+.index_boxClicked {
+    cursor: pointer;
+}
+#index_repair {
+    margin-left: 14px;
+}
+.index_boxHead {
+    position: relative;
+    color: #ffffff;
+    height: 42px;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+.index_boxHead:after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    border-style: solid;
+    border-width: 21px 0 21px 12px;
+    right: -12px;
+}
+.index_boxHead:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    border-style: solid;
+    border-width: 21px 0 21px 12px;
+    right: 132px;
+}
+#index_repairHead {
+    background-color: #123985;
+}
+#index_repairHead:after {
+    border-color: transparent transparent transparent #123985;
+}
+
+/* optimizar canal */
+
+.index_channelHead {
+    background-color: #d3d3d3;
+}
+.index_channelHead:hover {
+    background-color: #006fa1;
+}
+.index_channelHead:after {
+    border-color: transparent transparent transparent #d3d3d3;
+}
+.index_channelHead:hover:after {
+    border-color: transparent transparent transparent #006fa1;
+}
+.index_channelHead:before {
+    border-color: transparent transparent transparent #ffffff;
+}
+
+/* detectar intrusos */
+
+.index_intrudersHead {
+    background-color: #d3d3d3;
+}
+.index_intrudersHead:hover {
+    background-color: #2dbdb6;
+}
+.index_intrudersHead:after {
+    border-color: transparent transparent transparent #d3d3d3;
+}
+.index_intrudersHead:hover:after {
+    border-color: transparent transparent transparent #2dbdb6;
+}
+.index_intrudersHead:before {
+    border-color: transparent transparent transparent #ffffff;
+}
+
+/* test de velocidad */
+
+.index_speedtestHead {
+    background-color: #d3d3d3;
+}
+.index_speedtestHead:hover {
+    background-color: #6cc17b;
+}
+.index_speedtestHead:after {
+    border-color: transparent transparent transparent #d3d3d3;
+}
+.index_speedtestHead:hover:after {
+    border-color: transparent transparent transparent #6cc17b;
+}
+.index_speedtestHead:before {
+    border-color: transparent transparent transparent #ffffff;
+}
+
+/* chat */
+
+.index_chatHead {
+    background-color: #d3d3d3;
+}
+.index_chatHead:hover {
+    background-color: #00a77e;
+}
+.index_chatHead:before {
+    border-color: transparent transparent transparent #ffffff;
+}
+#repair_title {
+    margin-top: 66px;
+    text-align: center;
+}
+.repair_title {
+    font-family: NeoSansStdLight;
+    font-size: 16pt;
+    color: #2d2d2d;
+}
+#repair_description {
+    margin-top: 33px;
+    text-align: center;
+}
+.repair_description {
+    font-family: NeoSansStdLight;
+    font-size: 14pt;
+    color: #2d2d2d;
+}
+#global_buttonbegin {
+    background-color: #2dbdb6;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #28a59c;
+    height: 37px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 40px;
+}
+.global_buttonbegin {
+    font-family: NeoSansStdMedium;
+    font-size: 16pt;
+    color: #ffffff;
+}
+.meter {
+    width: 446px;
+    height: 13px;
+    background-color: #f7f7f7;
+    position: relative;
+}
+.meter > span {
+    display: block;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #2dbdb6;
+    float: left;
+}
+.animate > span:after {
+    display: none;
+}
+@keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50px 50px;
+    }
+}
+.meter > span:after,
+.animate > span > span {
+    animation: move 2s linear infinite;
+}
+@keyframes expandWidth {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: auto;
+    }
+}
+.repairImage {
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.repair_table1 {
+    font-family: NeoSansStdLight;
+    font-size: 15pt;
+    color: #2d2d2d;
+    text-align: left;
+    padding-left: 20px;
+}
+.repair_table2 {
+    font-family: NeoSansStdLight;
+    font-size: 14pt;
+    color: #909090;
+    text-align: right;
+    padding-right: 20px;
+}
+#repair_table {
+    width: 578px;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #e5e5e5;
+}
+#repair_table > tbody > tr > td {
+    height: 50px;
+}
+#repair_table > thead > tr {
+    height: 50px;
+}
+#repair_table tbody tr td {
+    width: 33%;
+    border-bottom-style: solid;
+    border-bottom-color: #e5e5e5;
+    border-bottom-width: 1pt;
+}
+input[type=checkbox] {
+    display: none;
+}
+input[type=checkbox] +label {
+    background: #ffffff;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e5e5e5;
+}
+input[type=checkbox]:checked +label {
+    background: url("../../assets/img/elementos-02.png");
+    background-size: 16px 13px;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e5e5e5;
+}

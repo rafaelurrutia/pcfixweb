@@ -1,0 +1,14 @@
+{
+    "code": "200",
+    "status": "true",
+    "finish": "false",
+    "data": [{
+        "fixproblemnetwork": "false"
+    }, {
+        "fixproblembrowser": "true"
+    }, {
+        "fixsecurity": "true"
+    }, {
+        "code": "0100"
+    }]
+}

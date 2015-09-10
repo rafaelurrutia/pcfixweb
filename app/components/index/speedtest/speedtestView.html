@@ -1,0 +1,124 @@
+<div style="margin-top: 25px; height:80px">
+
+    <div id="index_repair" ng-class="repairSectionClass" class="index_box" ng-click="gotoRepair()">
+
+        <div id="" ng-class="repairSectionClassHead">
+            <span class="index_titlestep1">{{index_titlestep1}}</span>
+            <br>
+            <span class="index_titlerepair">{{index_titlerepair}}</span>
+        </div>
+
+
+
+    </div>
+
+    <div id="" ng-class="channelSectionClass" class="index_box" ng-click="gotoChannel()">
+
+        <div id="" ng-class="channelSectionClassHead">
+            <span class="index_titlestep2">{{index_titlestep2}}</span>
+            <br>
+            <span class="index_titlechannel">{{index_titlechannel}}</span>
+        </div>
+
+
+
+    </div>
+
+    <div id="" ng-class="intrudersSectionClass" ng-click="gotoIntruders()">
+
+        <div id="" ng-class="intrudersSectionClassHead">
+            <span class="index_titlestep3">{{index_titlestep3}}</span>
+            <br>
+            <span class="index_titleintruders">{{index_titleintruders}}</span>
+        </div>
+
+
+
+    </div>
+
+    <div id="" ng-class="speedtestSectionClass">
+
+        <div id="" ng-class="speedtestSectionClassHead">
+            <span class="index_titlestep4">{{index_titlestep4}}</span>
+            <br>
+            <span class="index_titlespeedtest">{{index_titlespeedtest}}</span>
+        </div>
+
+
+
+    </div>
+
+    <div id="" ng-class="chatSectionClass" ng-click="gotoChat()">
+
+        <div id="" ng-class="chatSectionClassHead">
+            <span class="index_titlestep5">{{index_titlestep5}}</span>
+            <br>
+            <span class="index_titlechat">{{index_titlechat}}</span>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+<div id="sectionSpeedtest_1" ng-show="sectionSpeedtest_1" ng-style="hideSpeedtest_content">
+
+    <div style="">
+        <center>
+            <span id="speedtest_title" class="speedtest_title">{{speedtest_title}}</span>
+        </center>
+    </div>
+
+    <div style="margin-top: 33px;">
+        <center>
+            <span id="speedtest_description" class="speedtest_description">{{speedtest_description}}</span>
+        </center>
+    </div>
+
+    <div style="margin-top: 33px;">
+        <center>
+            <span id="speedtest_titlestep" class="speedtest_titlestep">{{speedtest_titlestep}}</span>
+        </center>
+    </div>
+
+    <div style="margin-top: 33px;">
+        <center>
+            <span id="speedtest_step" class="speedtest_step" style="color:#909090;">
+                {{speedtest_step1}}<br/>
+                {{speedtest_step2}}<br/>
+                {{speedtest_step3}}<br/>
+                {{speedtest_step4}}
+            </span>
+        </center>
+    </div>
+
+    <div style="">
+        <center>
+            <button id="global_buttonbegin" class="global_buttonbegin" ng-click="showHideElement('sectionSpeedtest_2','sectionSpeedtest_1')">{{global_buttondotest}}</button>
+        </center>
+    </div>
+
+</div>
+
+<div id="sectionSpeedtest_2" ng-show="sectionSpeedtest_2" ng-style="hideSpeedtest_content">
+
+    <div style="">
+        
+            
+
+        <center>
+            
+            <iframe src="http://ayudavtr.velocidad.vtr.net/" id="iframe" width="648" height="312"></iframe> 
+ 
+<!--            <img src="assets/img/speedtest.png" width="648" height="312" /> -->
+
+            <button id="global_buttongotobegin" class="global_buttongotobegin" ng-click="home()" style="margin-top:25px;">{{global_buttongotobegin}}</button>
+            </center>
+    </div>
+
+  
+  
+
+
+</div>

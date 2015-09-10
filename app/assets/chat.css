@@ -1,0 +1,240 @@
+#chat_title {
+    margin-top: 66px;
+    text-align: center;
+}
+.chat_title {
+    font-family: NeoSansStdLight;
+    font-size: 16pt;
+    color: #2d2d2d;
+}
+#chat_titlestep {
+    margin-top: 33px;
+    text-align: center;
+}
+.chat_titlestep {
+    font-family: NeoSansStdLight;
+    font-size: 14pt;
+    color: #2d2d2d;
+}
+#chat_step {
+    margin-top: 33px;
+    text-align: center;
+}
+.chat_step {
+    font-family: NeoSansStdLight;
+    font-size: 12pt;
+    color: #2d2d2d;
+}
+#chat_description {
+    margin-top: 33px;
+    text-align: center;
+}
+.chat_description {
+    font-family: NeoSansStdLight;
+    font-size: 14pt;
+    color: #2d2d2d;
+}
+#global_buttongobackhistorical {
+    background-color: #ed0f69;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #a80f63;
+    height: 37px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 40px;
+}
+.global_buttongobackhistorical {
+    font-family: NeoSansStdMedium;
+    font-size: 16pt;
+    color: #ffffff;
+}
+#chat_titlehistorical {}
+.chat_titlehistorical {
+    font-family: NeoSansStdLight;
+    font-size: 12pt;
+    color: #2d2d2d;
+}
+#global_buttongotobegin {
+    background-color: #ed0f69;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #a80f63;
+    height: 37px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 40px;
+}
+#global_buttongotobegin:hover {
+    background-color: #a80f63;
+}
+.global_buttongotobegin {
+    font-family: NeoSansStdMedium;
+    font-size: 16pt;
+    color: #ffffff;
+}
+table.chatTable {
+    width: 579px;
+    height: 239px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #e5e5e5;
+}
+
+table.chatTable th {
+    font-family: NeoSansStdLight;
+    font-size: 15pt;
+    color: #2d2d2d;
+}
+table.chatTable td {
+    font-family: NeoSansStdLight;
+    font-size: 14pt;
+    color: #909090;
+}
+table.chatTable th,
+table.chatTable td {
+    padding: 5px;
+    text-align: left;
+}
+table.chatTable td:nth-child(1),
+table.chatTable th:nth-child(1) {
+    min-width: 250px;
+    padding-left: 20px;
+}
+table.chatTable td:nth-child(2),
+table.chatTable th:nth-child(2) {
+    min-width: 150px;
+    text-align: center;
+}
+table.chatTable td:nth-child(3),
+table.chatTable th:nth-child(3) {
+    width: 135px;
+}
+table.chatTable thead {
+    background-color: #ffffff;
+}
+table.chatTable tbody {
+
+}
+table.chatTable thead tr {
+    display: block;
+    position: relative;
+}
+table.chatTable tbody {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    height: 189px;
+}
+
+/**/
+
+table.chatTable > tbody > tr > td {
+    height: 50px;
+}
+table.chatTable > thead > tr > th{
+    height: 50px;
+}
+#table.chatTable {
+    margin-bottom: 20px;
+    
+}
+table.chatTable thead tr th {
+    border-bottom-style: solid;
+    border-bottom-color: #e5e5e5;
+    border-bottom-width: 1pt;
+}
+table.chatTable tbody tr td {
+    border-bottom-style: solid;
+    border-bottom-color: #e5e5e5;
+    border-bottom-width: 1pt;
+}
+#chat_buttonseechat{
+    background-color: #2dbdb6;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #28a59c;
+    height: 37px;
+    padding-left: 22px;
+    padding-right: 22px;    
+}
+.chat_buttonseechat{
+    font-family: NeoSansStdMedium;
+    font-size: 12pt;
+    color: #ffffff;
+}
+
+#chatHistoricalBox{
+    width: 648px;
+    height: 255px;
+    background-color: #f9f9f9;
+    border-style: solid;
+    border-color: #e5e5e5;
+    border-width: 1px;
+}
+.chatHistoricalBox{}
+
+.chatHistoricalBoxDate{
+    text-align: right;
+    font-family: NeoSansStdLight;
+    font-size: 12pt;
+    color: #2d2d2d;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#chatHistoricalBoxChat{
+    width: 620px;
+    height: 205px;
+}
+
+.chatHistoricalBoxChat{
+    text-align: left;
+}
+.chatHistoricalBoxChatDate{
+    background-color: #d3d3d3;
+    text-align: left;
+    font-family: NeoSansStdLight;
+    font-size: 10pt;
+    color: #2d2d2d;
+}
+
+.chatHistoricalBoxChatText{
+    font-family: NeoSansStdLight;
+    font-size: 12pt;
+    color: #2d2d2d;
+    
+}
+.chatHistoricalBoxChatTextBold{
+    font-family: NeoSansStdBold;
+    font-size: 10pt;
+    color: #2d2d2d;
+    font-weight: bold;
+}
+
+.focus{
+    background-color: #ffffff;
+    width: 625px;
+    height: 50px;
+    border-color: #e5e5e5;
+    border-style: solid;
+    border-width: 1px;
+    font-family: NeoSansStdItalic;
+}
+.focusButton{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #2dbdb6;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #28a59c;
+    height: 28px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-family: NeoSansStdMedium;
+    font-size: 9pt;
+    color: #ffffff;
+}

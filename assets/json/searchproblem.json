@@ -1,0 +1,30 @@
+{
+    "code": "200",
+    "status": "true",
+    "finish": "true",
+    "data": [{
+        "repair_networkprobe1": "False",
+        "repair_networkprobe2": "False",
+        "repair_networkprobe3": "False",
+        "repair_networkprobe4": "False",
+        "repair_networkprobe5": "False",
+        "codenet": "00000"
+    }, {
+        "repair_browserprobe1": "True",
+        "repair_browserprobe2": "True",
+        "repair_browserprobe3": "True",
+        "repair_browserprobe4": "False",
+        "codenav": "0000"
+    }, {
+        "repair_securityprobe1": "False",
+        "repair_securityprobe2": "False",
+        "repair_securityprobe3": "False",
+        "codesec": "1000"
+    }, {
+        "errorsnet": "0",
+        "errorsnavegador": "0",
+        "errorsseguridad": "1"
+    }, {
+        "codeerror": "0100"
+    }]
+}

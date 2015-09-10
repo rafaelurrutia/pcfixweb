@@ -1,0 +1,59 @@
+@font-face {
+    font-family: NeoSansStdBlack;
+    src: url(../font/NeoSansStd-Black.otf);
+}
+
+@font-face {
+    font-family: NeoSansStdBlackItalic;
+    src: url(../font/NeoSansStd-BlackItalic.otf);
+}
+
+@font-face {
+    font-family: NeoSansStdBold;
+    src: url(../font/NeoSansStd-Bold.otf);
+}
+
+@font-face {
+    font-family: NeoSansStdBoldItalic;
+    src: url(../font/NeoSansStd-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: NeoSansStdItalic;
+    src: url(../font/NeoSansStd-Italic.otf);
+}
+
+@font-face {
+    font-family: NeoSansStdLight;
+    src: url(../font/NeoSansStd-Light.otf);
+}
+
+@font-face {
+    font-family: NeoSansStdLightItalic;
+    src: url(../font/NeoSansStd-LightItalic.otf);
+}
+
+@font-face {
+    font-family: NeoSansStdMedium;
+    src: url(../font/NeoSansStd-Medium.otf);
+}
+
+@font-face {
+    font-family: NeoSansStdMediumItalic;
+    src: url(../font/NeoSansStd-MediumItalic.otf);
+}
+
+@font-face {
+    font-family: NeoSansStdRegular;
+    src: url(../font/NeoSansStd-Regular.otf);
+}
+
+@font-face {
+    font-family: NeoSansStdUltra;
+    src: url(../font/NeoSansStd-Ultra.otf);
+}
+
+@font-face {
+    font-family: NeoSansStdUltraItalic;
+    src: url(../font/NeoSansStd-UltraItalic.otf);
+}

@@ -1,0 +1,336 @@
+<!-- MODAL1-->
+<div class="dialog_box" style="width:493px; height:365px" ng-show="hideChat_dialogmsg1">
+    <span class="close">x</span>
+<center>
+    <span class="repair_dialogmsg1">
+        CONDICIONES GENERALES DE USO "S.O.S. REMOTO"</span><br><br>
+    
+    <div class="repair_dialogmsg1" style="width:400px; 
+                height: 260px; 
+                border-style:solid;
+                border-width:1pt;
+                border-color:#e5e5e5;
+                text-align:left;
+                color:#2d2d2d;">Estimado cliente:<br><br>Antes de usar la herramienta que VTR pone a su disposición, lea los siguientes Términos y Condiciones de Uso:<br><br>VTR provee a Usted de un servicio de asistente remota en Línea (en adelante "S.O.S. REMOTO") que le permitirá configurar, administrar, detectar problemas en sus equipos, a través de un ejecutivo de atencion VTR.</div>
+    </center>
+    
+    
+    <span id="repair_dialogmsg1" class="repair_dialogmsg1"></span>
+
+    <center>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept" ng-click="hideChat_dialogmsg1=false; hideChat_dialogmsg4=true;">Acepto los términos</button>
+    </center>
+<!-- 
+hideChat_content={'background-color':'#ffffff','opacity': '1'}; hideChat_dialogmsg1=false; showHideElement('sectionChat_3','sectionChat_1'); showHideElement('sectionChat_3','sectionChat_2');
+-->
+</div>
+<!-- FIN MODAL1-->
+<!-- MODAL2-->
+<div class="dialog_box" style="width:350px; height:130px" ng-show="hideChat_dialogmsg2">
+    <span class="close">x</span>
+<center>
+    <span class="repair_dialogmsg1">Ingresa correo para enviar el chat:</span><br><br>
+    <span class="repair_dialogmsg1">Correo: </span>
+    <span class="repair_dialogmsg1"><input type="text" value="" style="border-style:solid;border-width:1pt; border-color:#000000; font-family: NeoSansStdLight; font-size: 12pt;"></span>    
+    </center>
+    <span id="repair_dialogmsg1" class="repair_dialogmsg1"></span>
+
+    <center>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept red" ng-click="hideChat_content={'background-color':'#ffffff','opacity': '1'}; hideChat_dialogmsg2=false;">Cancelar</button>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept" ng-click="hideChat_dialogmsg2=false; hideChat_dialogmsg3=true;">Enviar chat</button>
+    </center>
+
+</div>
+<!-- FIN MODAL2-->
+<!-- MODAL3-->
+<div class="dialog_box" style="width:350px; height:130px" ng-show="hideChat_dialogmsg3">
+    <span class="close">x</span>
+<center>
+    <span class="repair_dialogmsg1">Correo inválido, intentalo otra vez:</span><br><br>
+    <span class="repair_dialogmsg1">Correo: </span>
+    <span class="repair_dialogmsg1"><input type="text" value="" style="border-style:solid;border-width:1pt; border-color:#000000; font-family: NeoSansStdLight; font-size: 12pt;"></span>    
+    </center>
+    <span id="repair_dialogmsg1" class="repair_dialogmsg1"></span>
+
+    <center>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept red" ng-click="hideChat_content={'background-color':'#ffffff','opacity': '1'}; hideChat_dialogmsg2=false;">Cancelar</button>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept" ng-click="hideChat_content={'background-color':'#ffffff','opacity': '1'}; hideChat_dialogmsg3=false;">Enviar chat</button>
+    </center>
+
+</div>
+<!-- FIN MODAL3-->
+<!-- MODAL4-->
+<div class="dialog_box" style="width:350px; height:170px" ng-show="hideChat_dialogmsg4">
+    <span class="close">x</span>
+<center>
+    <span class="repair_dialogmsg1">Completa los datos para comenzar</span><br><br>
+    <table class="wifi_table" cellspacing="0">
+        <tbody>
+            <tr>
+                <td class="repair_dialogmsg1">Nombre:</td>
+                <td class="repair_dialogmsg1"><input style="border-style:solid;border-width:1pt; border-color:#000000; font-family: NeoSansStdLight; font-size: 12pt;" type="text" value=""></td>
+            </tr>
+            <tr>
+                <td class="repair_dialogmsg1">Rut:</td>
+                <td class="repair_dialogmsg1"><input style="border-style:solid;border-width:1pt; border-color:#000000; font-family: NeoSansStdLight; font-size: 12pt;" type="text" value=""></td>
+            </tr>
+        </tbody>
+    </table>
+    </center>
+    <span id="repair_dialogmsg1" class="repair_dialogmsg1"></span>
+
+    <center>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept red" ng-click="hideChat_content={'background-color':'#ffffff','opacity': '1'}; hideChat_dialogmsg4=false;">Cancelar</button>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept" ng-click="hideChat_dialogmsg4=false; hideChat_dialogmsg5=true;">Comenzar chat</button>
+    </center>
+
+</div>
+<!-- FIN MODAL4-->
+<!-- MODAL5-->
+<div class="dialog_box" style="width:350px; height:150px" ng-show="hideChat_dialogmsg5">
+    <span class="close">x</span>
+<center>
+    <span class="repair_dialogmsg1">Rut inválido, inténtalo otra vez:</span><br><br>
+    <table class="wifi_table" cellspacing="0">
+        <tbody>
+            <tr>
+                <td class="repair_dialogmsg1">Rut:</td>
+                <td class="repair_dialogmsg1"><input style="border-style:solid;border-width:1pt; border-color:#000000; font-family: NeoSansStdLight; font-size: 12pt;" type="text" value=""></td>
+            </tr>
+        </tbody>
+    </table>
+    </center>
+    <span id="repair_dialogmsg1" class="repair_dialogmsg1"></span>
+
+    <center>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept red" ng-click="hideChat_content={'background-color':'#ffffff','opacity': '1'}; hideChat_dialogmsg5=false;">Cancelar</button>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept" ng-click="hideChat_content={'background-color':'#ffffff','opacity': '1'}; hideChat_dialogmsg5=false; showHideElement('sectionChat_3','sectionChat_1'); showHideElement('sectionChat_3','sectionChat_2');">Comenzar chat</button>
+    </center>
+
+</div>
+<!-- FIN MODAL5-->
+
+<div style="margin-top: 25px; height:68px" ng-style="hideChat_content">
+
+    <div id="index_repair" ng-class="repairSectionClass" class="index_box" ng-click="gotoRepair()">
+
+        <div id="" ng-class="repairSectionClassHead">
+            <span class="index_titlestep1">{{index_titlestep1}}</span>
+            <br>
+            <span class="index_titlerepair">{{index_titlerepair}}</span>
+        </div>
+
+
+
+    </div>
+
+    <div id="" ng-class="channelSectionClass" class="index_box" ng-click="gotoChannel()">
+
+        <div id="" ng-class="channelSectionClassHead">
+            <span class="index_titlestep2">{{index_titlestep2}}</span>
+            <br>
+            <span class="index_titlechannel">{{index_titlechannel}}</span>
+        </div>
+
+
+
+    </div>
+
+    <div id="" ng-class="intrudersSectionClass" ng-click="gotoIntruders()">
+
+        <div id="" ng-class="intrudersSectionClassHead">
+            <span class="index_titlestep3">{{index_titlestep3}}</span>
+            <br>
+            <span class="index_titleintruders">{{index_titleintruders}}</span>
+        </div>
+
+
+
+    </div>
+
+    <div id="" ng-class="speedtestSectionClass" ng-click="gotoSpeedtest()">
+
+        <div id="" ng-class="speedtestSectionClassHead">
+            <span class="index_titlestep4">{{index_titlestep4}}</span>
+            <br>
+            <span class="index_titlespeedtest">{{index_titlespeedtest}}</span>
+        </div>
+
+
+
+    </div>
+
+    <div id="" ng-class="chatSectionClass">
+
+        <div id="" ng-class="chatSectionClassHead">
+            <span class="index_titlestep5">{{index_titlestep5}}</span>
+            <br>
+            <span class="index_titlechat">{{index_titlechat}}</span>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+<div id="sectionChat_1" ng-show="sectionChat_1" ng-style="hideChat_content" style="margin-top: 90px;">
+
+    <div style="">
+        <center>
+            <span id="chat_title" class="chat_title">{{chat_title}}</span>
+        </center>
+    </div>
+
+    <div style="margin-top: 33px;">
+        <center>
+            <span id="chat_description" class="chat_description">{{chat_description}}</span>
+        </center>
+    </div>
+
+    <div style="margin-top: 33px;">
+        <center>
+            <span id="chat_titlestep" class="chat_titlestep">{{chat_titlestep}}</span>
+        </center>
+    </div>
+
+    <div style="">
+        <center>
+            <button id="global_buttongobackhistorical" class="global_buttongobackhistorical" style="margin-right:58px;" ng-click="showHideElement('sectionChat_2','sectionChat_1'); showHideElement('sectionChat_2_1','sectionChat_2_2');">{{global_buttongobackhistorical}}</button>
+            <button id="global_buttonbegin" class="global_buttonbegin" ng-click="hideChat_content={'background-color':'#ffffff','opacity': '0.1'}; hideChat_dialogmsg1=true;">{{global_buttonchatadvisor}}</button>
+        </center>
+    </div>
+
+</div>
+
+<div id="sectionChat_2" ng-show="sectionChat_2" ng-style="hideChat_content" style="margin-top:20px; height: auto;">
+
+    <div style="height: 30px;">
+        <center>
+            <span id="chat_title" class="chat_titlehistorical">{{chat_titlehistorical}}</span>
+        </center>
+    </div>
+    
+    <div style="height: 239px;" ng-show="sectionChat_2_1" >
+        <center>
+            <table class="chatTable " cellspacing="0">
+
+            <thead valign="middle">
+                <th>Nombre asesor</th>
+                <th>Fecha del chat</th>
+                <th></th>
+            </thead>
+            <tbody valign="middle">
+
+
+                <tr ng-repeat="table in chatDataTable">
+                    <td>{{table.name}}</td>
+                    <td>{{table.date}}</td>
+                    <td><button id="chat_buttonseechat" class="chat_buttonseechat" ng-click="showHideElement('sectionChat_2_2','sectionChat_2_1');" >Ver chat</button></td>
+                </tr>
+
+            </tbody>
+        </table>
+        </center>
+        <div style="">
+        <center>
+            <button id="global_buttongobackhistorical" class="global_buttongobackhistorical" style="margin-right:58px;" ng-click="home();">{{global_buttongotobegin}}</button>
+            <button id="global_buttonbegin" class="global_buttonbegin" ng-click="hideChat_content={'background-color':'#ffffff','opacity': '0.1'}; hideChat_dialogmsg1=true;">Chatear con un asesor</button>
+        </center>
+    </div>
+    </div>
+
+    <div style="height: 255px;" ng-show="sectionChat_2_2">
+        <center>
+            <div id="chatHistoricalBox" class="chatHistoricalBox">
+                <div class="chatHistoricalBoxDate">02 de Octubre, 2013</div>
+                <div id="chatHistoricalBoxChat" class="chatHistoricalBoxChat">
+                    <span class="chatHistoricalBoxChatText">
+                    En un momento serás atendido por uno de nuestros asesores...
+                    </span><br>
+                    <span class="chatHistoricalBoxChatText">
+                    Se ha asignado al asesor de soporte VTR 
+                    </span>
+                    <span class="chatHistoricalBoxChatTextBold">Fernando Silva</span><br>
+                    <span class="chatHistoricalBoxChatDate">
+                    Hoy a las 18:54 hrs
+                    </span><br>
+                    
+                    <span class="chatHistoricalBoxChatText">
+                    Fernando: Buenos días, en qué puedo ayudarla?
+                    </span><br>
+                    <span class="chatHistoricalBoxChatText">
+                    Macarena: Hola tengo problemas para navegar. Reinicié el router y no pasa nada.
+                    </span><br>
+                    <span class="chatHistoricalBoxChatText">
+                    Fernando: Déjeme hacerle unas preguntas más para saber mejor qué puede estar pasando.
+                    </span><br>
+                    <span class="chatHistoricalBoxChatText">
+                    Macarena: Ok.
+                    </span><br>
+                    <span class="chatHistoricalBoxChatText">
+                    Fernando: Desde cuándo tiene problemas para navegar?
+                    </span>
+                </div>
+            </div>
+        </center>
+        <div style="">
+        <center>
+            <button id="global_buttongobackhistorical" class="global_buttongobackhistorical" style="margin-right:58px;" ng-click="showHideElement('sectionChat_2_1','sectionChat_2_2');">Volver al historial</button>
+            <button id="global_buttonbegin" class="global_buttonbegin" ng-click="hideChat_content={'background-color':'#ffffff','opacity': '0.1'}; hideChat_dialogmsg2=true;">{{global_buttonsendchatmail}}</button>
+        </center>
+    </div>
+    </div>
+
+
+
+    
+
+</div>
+
+<div id="sectionChat_3" style="margin-top:20px;" ng-show="sectionChat_3" ng-style="hideChat_content" >
+
+<span class="chat_titlehistorical" style="margin-left:75px;">Macarena, estás chateando con Eduardo Casas</span>
+
+    <div>
+        
+        <center>
+            
+            <div id="chatHistoricalBox" class="chatHistoricalBox" style="width:648px; height:294px;">
+                <div class="chatHistoricalBoxDate">02 de Octubre, 2013</div>
+                <div id="chatHistoricalBoxChat" class="chatHistoricalBoxChat">
+                    <span class="chatHistoricalBoxChatText">
+                    En un momento serás atendido por uno de nuestros asesores...
+                    </span><br>
+                    <span class="chatHistoricalBoxChatText">
+                    Se ha asignado al asesor de soporte VTR 
+                    </span>
+                    <span class="chatHistoricalBoxChatTextBold">Eduardo Casas</span><br>
+                    <span class="chatHistoricalBoxChatDate">
+                    Hoy a las 18:54 hrs
+                    </span><br>
+                    
+                    <span class="chatHistoricalBoxChatText">
+                    Eduardo: Buenos días, en qué puedo ayudarla?
+                    </span><br>
+                    
+                </div>
+                <div style="display:inline-block;
+    position:relative;">
+                     <textarea name="" id="txt" cols="30" rows="10" class="focus">escribe aqui...</textarea>
+                    <button type="submit" class="focusButton">Enviar</button>
+                </div>
+            </div>
+        </center>
+    </div>
+
+
+
+    <div style="">
+        <center>
+            <button id="global_buttongobackhistorical" class="global_buttongobackhistorical" style="margin-right:58px; margin-top:15px;">Ternimar la sesión</button>
+            
+        </center>
+    </div>
+
+</div>

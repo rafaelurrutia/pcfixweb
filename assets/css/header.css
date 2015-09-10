@@ -1,0 +1,35 @@
+#header{
+    height: 28px;   /* from vtr */
+    background-color: #000000; /* from vtr */
+    width: 100%;
+    position: relative;
+}
+
+#header #logoIconoTexto{
+    float: right;
+    height: 19px; /* from vtr */
+    width: 80px;
+    margin-right: 10px; /* from vtr */
+}
+
+#header .logoIconoTexto{
+    position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+}
+
+#header #logoTexto{
+  float: left;
+  margin-left: 14px; /* from vtr */
+  height: 12px; /* from vtr */
+  width: 65px;
+  vertical-align: middle;
+ 
+}
+
+#header #logoIconos{
+  float: right;
+  margin-right: 37px; /* from vtr */
+  height: 19px; /* from vtr */
+  width: 80px;
+}

@@ -1,0 +1,166 @@
+<!-- MODAL1-->
+<div class="dialog_box" style="width:400px; height:170px" ng-show="hideWifi_dialogmsg1">
+    <span class="close">x</span>
+<center>
+    <span class="repair_dialogmsg1">Para realizar cualquier cambio en la red, ingresa el Rut del Titular.</span><br><br>
+    <table class="wifi_table" cellspacing="0">
+        <tbody>
+            <tr>
+                <td class="repair_dialogmsg1">Rut Titular:</td>
+                <td class="repair_dialogmsg1"><input style="border-style:solid;border-width:1pt; border-color:#000000; font-family: NeoSansStdLight; font-size: 12pt;" type="text" value=""></td>
+            </tr>
+        </tbody>
+    </table>
+    </center>
+    <span id="repair_dialogmsg1" class="repair_dialogmsg1"></span>
+
+    <center>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept red" ng-click="hideWifi_content={'background-color':'#ffffff','opacity': '1'}; hideWifi_dialogmsg1=false;">Cancelar</button>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept" ng-click="hideWifi_dialogmsg1=false; hideWifi_dialogmsg2=true;">Continuar</button>
+    </center>
+
+</div>
+<!-- FIN MODAL1-->
+<!-- MODAL2-->
+<div class="dialog_box" style="width:400px; height:170px" ng-show="hideWifi_dialogmsg2">
+    <span class="close">x</span>
+<center>
+    <span class="repair_dialogmsg1">Rut inválido, inténtalo otra vez:</span><br><br><br>
+    <table class="wifi_table" cellspacing="0">
+        <tbody>
+            <tr>
+                <td class="repair_dialogmsg1">Rut:</td>
+                <td class="repair_dialogmsg1"><input style="border-style:solid;border-width:1pt; border-color:#000000; font-family: NeoSansStdLight; font-size: 12pt;" type="text" value=""></td>
+            </tr>
+        </tbody>
+    </table>
+    </center>
+    <span id="repair_dialogmsg1" class="repair_dialogmsg1"></span>
+
+    <center>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept red" ng-click="hideWifi_content={'background-color':'#ffffff','opacity': '1'}; hideWifi_dialogmsg2=false;">Cancelar</button>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept" ng-click="hideWifi_dialogmsg2=false; hideWifi_dialogmsg3=true; ">Continuar</button>
+    </center>
+
+</div>
+<!-- FIN MODAL2-->
+<!-- MODAL3-->
+<div class="dialog_box" style="width:400px; height:170px" ng-show="hideWifi_dialogmsg3">
+    <span class="close">x</span>
+<center>
+    <span class="repair_dialogmsg1">Para recuperar la contraseña Wifi, escribe tu dirección de correo electrónico.</span><br><br>
+    <table class="wifi_table" cellspacing="0">
+        <tbody>
+            <tr>
+                <td class="repair_dialogmsg1">Correo:</td>
+                <td class="repair_dialogmsg1"><input style="border-style:solid;border-width:1pt; border-color:#000000; font-family: NeoSansStdLight; font-size: 12pt;" type="text" value=""></td>
+            </tr>
+        </tbody>
+    </table>
+    </center>
+    <span id="repair_dialogmsg1" class="repair_dialogmsg1"></span>
+
+    <center>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept red" ng-click="hideWifi_content={'background-color':'#ffffff','opacity': '1'}; hideWifi_dialogmsg3=false;">Cancelar</button>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept" ng-click="hideWifi_dialogmsg3=false; hideWifi_dialogmsg4=true;">Continuar</button>
+    </center>
+
+</div>
+<!-- FIN MODAL3-->
+<!-- MODAL4-->
+<div class="dialog_box" style="width:400px; height:170px" ng-show="hideWifi_dialogmsg4">
+    <span class="close">x</span>
+<center>
+    <span class="repair_dialogmsg1">Correo inválido, inténtalo otra vez:</span><br><br><br>
+    <table class="wifi_table" cellspacing="0">
+        <tbody>
+            <tr>
+                <td class="repair_dialogmsg1">Correo:</td>
+                <td class="repair_dialogmsg1"><input style="border-style:solid;border-width:1pt; border-color:#000000; font-family: NeoSansStdLight; font-size: 12pt;" type="text" value=""></td>
+            </tr>
+        </tbody>
+    </table>
+    </center>
+    <span id="repair_dialogmsg1" class="repair_dialogmsg1"></span>
+
+    <center>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept red" ng-click="hideWifi_content={'background-color':'#ffffff','opacity': '1'}; hideWifi_dialogmsg4=false;">Cancelar</button>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept" ng-click="hideWifi_content={'background-color':'#ffffff','opacity': '1'}; hideWifi_dialogmsg4=false;">Si, envialo otra vez</button>
+    </center>
+
+</div>
+<!-- FIN MODAL4-->
+<!-- MODAL5-->
+<div class="dialog_box" style="width:400px; height:170px" ng-show="hideWifi_dialogmsg5">
+    <span class="close">x</span>
+<center>
+    <span class="repair_dialogmsg1">Cambiar el nombre de red Innovación UX/UI VTR:</span><br><br><br>
+    <table class="wifi_table" cellspacing="0">
+        <tbody>
+            <tr>
+                <td class="repair_dialogmsg1">Nuevo nombre:</td>
+                <td class="repair_dialogmsg1"><input style="border-style:solid;border-width:1pt; border-color:#000000; font-family: NeoSansStdLight; font-size: 12pt;" type="text" value=""></td>
+            </tr>
+        </tbody>
+    </table>
+    </center>
+    <span id="repair_dialogmsg1" class="repair_dialogmsg1"></span>
+
+    <center>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept red" ng-click="hideWifi_content={'background-color':'#ffffff','opacity': '1'}; hideWifi_dialogmsg5=false;">Cancelar</button>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept" ng-click="hideWifi_content={'background-color':'#ffffff','opacity': '1'}; hideWifi_dialogmsg5=false;">Cambiar</button>
+    </center>
+
+</div>
+<!-- FIN MODAL5-->
+<div ng-style="hideWifi_content">
+<div id="wifi_title" >
+<center><span class="wifi_title">{{wifi_title}}</span></center>
+    </div>
+
+
+<div id="wifitable">
+    
+<center>
+    <table class="wifiTable " cellspacing="0">
+
+            <tbody valign="middle">
+
+
+                <tr>
+                    <td class="columna1">{{wifi_namenet}}</td>
+                    <td class="columna2">Innovación UX/UI VTR</td>
+                    <td><a class="columna3" ng-click="hideWifi_content={'background-color':'#ffffff','opacity': '0.1'}; hideWifi_dialogmsg5=true;">editar</a></td>
+                </tr>
+                <tr>
+                    <td class="columna1">{{wifi_securitywifi}}</td>
+                    <td class="columna2">WPA-Personal</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="columna1">{{wifi_intensitysignal}}</td>
+                    <td class="columna2">100%</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="columna1">{{wifi_channelwifi}}</td>
+                    <td class="columna2">9</td>
+                    <td><a class="columna3" ng-click="channel()">ver canales Wifi</a></td>
+                </tr>
+                <tr>
+                    <td class="columna1 withoutborder">{{wifi_password}}</td>
+                    <td class="columna2 withoutborder">XXXXXXXXXXXXXXXX</td>
+                    <td><a class="columna3" ng-click="hideWifi_content={'background-color':'#ffffff','opacity': '0.1'}; hideWifi_dialogmsg1=true;">cambiar</a>&nbsp;<a class="columna3" ng-click="hideWifi_content={'background-color':'#ffffff','opacity': '0.1'}; hideWifi_dialogmsg1=true;">recuperar</a></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </center>
+</div>
+
+<div style="margin-top:40px;">
+<center>
+    <button id="wifi_button" class="wifi_button" >¡Entérate cómo entrega VTR el servicio de acceso a internet!</button>
+    </center>
+</div>
+    </div>

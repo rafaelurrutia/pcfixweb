@@ -1,0 +1,168 @@
+/* se encarga de poner una imagen de fondo explandida al 100%*/
+#loadingPages {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 0.9;
+    background-image: url("../img/iconoEspera.gif");
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    
+}    
+
+/* content, tener un div centrado */
+#content{
+    width: 820px; /* from vtr */
+    height: 628px; /* from vtr */
+/*    background-color: #ffffff; from vtr */
+    position: absolute; /* o relative */
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    background: url(../img/fondo.png) no-repeat center center fixed; /* from vtr */
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+
+#subContent{
+    width: 792px; /* from vtr */
+    height: 549px; /* from vtr */
+    background-color: #ffffff; /*from vtr */
+    margin-left: 14px;
+    margin-top: 36px;
+}
+
+
+
+img.adjusted {
+    width: 94px; /* from vtr */
+    height: 100px; /* from vtr */
+    
+    position: absolute; /* o relative */
+    margin: auto;
+        
+    top: 28px; /* from vtr */
+    left: 14px;
+}
+
+
+#main2{
+/*    height: 493px; */
+    background-color: #ffffff;
+}
+
+#index_title{
+    margin-top: 108px; /* from vtr */
+}
+
+.index_title{
+    color: #2d2d2d;
+    font-family: NeoSansStdLight;
+    font-size: 24pt;
+    margin:auto; 
+    display:table;
+}
+
+.index_title_vtr{
+    color: #2d2d2d;
+    font-family: NeoSansStdRegular;
+    font-size: 24pt;     
+}
+            
+#index_description{
+    margin-top: 19px; /* from vtr */
+}
+            
+.index_description, .index_intruction{
+    color: #2d2d2d;
+    font-family: NeoSansStdLight;
+    font-size: 14pt;
+    margin:auto; 
+    display:table;
+}
+
+
+
+/**/    
+/* content, tener un div centrado */
+
+
+#loading{
+    width: 46px; /* from vtr */
+    height: 46px; /* from vtr */
+    position: absolute; /* o relative */
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 9;
+}
+         
+.index_titlestep1, 
+.index_titlestep2, 
+.index_titlestep3, 
+.index_titlestep4, 
+.index_titlestep5{
+    font-family: NeoSansStdBoldItalic; /* from vtr */
+    font-size: 11pt; /* from vtr */
+    font-size: 9pt;
+    padding-left: 15px;            
+}
+            
+.index_titlerepair, 
+.index_titlechannel, 
+.index_titleintruders, 
+.index_titlespeedtest, 
+.index_titlechat{
+    font-family: NeoSansStdBold; /* from vtr */
+    font-size: 13pt; /* from vtr */
+    font-size: 9pt;
+    padding-left: 15px;            
+}
+            
+.index_repairdescription, 
+.index_channeldescription, 
+.index_intrudersdescription, 
+.index_speedtestdescription, 
+.index_chatdescription{
+    font-family: NeoSansStdRegular; /* from vtr */
+    font-size: 11pt; /* from vtr */
+    font-size: 9pt;      
+}
+            
+#section_image{
+    width: 150px;
+    height: 163px;
+    overflow: hidden;
+}
+            
+.img {
+    min-width: 100%;
+    min-height: 100%;
+}
+            
+.image{
+    z-index: -1;
+}
+            
+.index_box_bloqueado{
+    background-color: #d3d3d3;
+}
+
+/*header*/
+

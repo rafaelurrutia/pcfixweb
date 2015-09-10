@@ -1,0 +1,54 @@
+#speedtest_title {
+    margin-top: 66px;
+    text-align: center;
+}
+.speedtest_title {
+    font-family: NeoSansStdLight;
+    font-size: 16pt;
+    color: #2d2d2d;
+}
+#speedtest_titlestep {
+    margin-top: 33px;
+    text-align: center;
+}
+.speedtest_titlestep {
+    font-family: NeoSansStdLight;
+    font-size: 14pt;
+    color: #2d2d2d;
+}
+#speedtest_step {
+    margin-top: 33px;
+    text-align: center;
+}
+.speedtest_step {
+    font-family: NeoSansStdLight;
+    font-size: 12pt;
+    color: #2d2d2d;
+}
+#speedtest_description {
+    margin-top: 33px;
+    text-align: center;
+}
+.speedtest_description {
+    font-family: NeoSansStdLight;
+    font-size: 14pt;
+    color: #2d2d2d;
+}
+#global_buttongotobegin {
+    background-color: #ed0f69;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #a80f63;
+    height: 37px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 10px;
+}
+#global_buttongotobegin:hover {
+    background-color: #a80f63;
+}
+.global_buttongotobegin {
+    font-family: NeoSansStdMedium;
+    font-size: 16pt;
+    color: #ffffff;
+}

@@ -1,0 +1,39 @@
+{
+    "code": "200",
+    "status": "true",
+    "finish": "true",
+    "data": [{
+        "nameos": "Microsoft Windows 7 Professional ",
+        "packos": " (Service Pack 1)"
+    }, {
+        "memory": "3.43",
+        "unit": "Gbytes"
+    }, {
+        "network0": "name: Wireless Network Connection;IPv4: 192.168.100.11;gateway:fe80::1%19 ;mac: 84:C9:B2:72:A0:27;DNS: fe80::1%19 200.72.1.5 200.72.1.11 ",
+        "network1": "name: Local Area Connection 2;IPv4: 10.0.0.10;mac: 02:00:4C:4F:4F:50;DNS: fec0:0:0:ffff::1%1 fec0:0:0:ffff::2%1 fec0:0:0:ffff::3%1 ",
+        "network2": "name: Local Area Connection;IPv4: 192.168.100.102;gateway:fe80::1%12 ;mac: C0:3F:D5:60:AB:E3;DNS: fe80::1%12 200.72.1.5 200.72.1.11 ",
+        "network3": "name: VMware Network Adapter VMnet1;IPv4: 192.168.47.1;mac: 00:50:56:C0:00:01;DNS: 192.168.47.1 ",
+        "network4": "name: VMware Network Adapter VMnet8;IPv4: 192.168.17.1;mac: 00:50:56:C0:00:08;DNS: 192.168.17.2 ",
+        "network5": "name: Wireless Network Connection;IPv6: fe80::d9cb:a0c6:36bd:c479%19;mac: 84:C9:B2:72:A0:27",
+        "network6": "name: Local Area Connection 2;IPv6: fe80::b942:aac9:a34a:37c9%17;mac: 02:00:4C:4F:4F:50",
+        "network7": "name: Local Area Connection;IPv6: fe80::f00e:6810:139e:3913%12;mac: C0:3F:D5:60:AB:E3",
+        "network8": "name: VMware Network Adapter VMnet1;IPv6: fe80::f4a5:21c7:38c7:caca%14;mac: 00:50:56:C0:00:01",
+        "network9": "name: VMware Network Adapter VMnet8;IPv6: fe80::b88f:ff20:a9be:64f5%16;mac: 00:50:56:C0:00:08"
+    }, {
+        "existfirefox": "True",
+        "existchrome": "True",
+        "existopera": "False",
+        "existsafari": "False",
+        "existie": "True",
+        "versionfirefox": "",
+        "versionchrome": "",
+        "versionopera": "",
+        "versionsafari": "",
+        "versionie": "Internet Explorer, 11.00.9600.16428",
+        "activefirewall": "False"
+    }, {
+        "cpu": "Intel(R) Core(TM) i3-4010U CPU @ 1.70GHz"
+    }, {
+        "antivirus0": "title: Microsoft Security Essentials;status: True;needUpgrade: True"
+    }]
+}

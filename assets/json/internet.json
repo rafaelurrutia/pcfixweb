@@ -1,0 +1,10 @@
+{
+    "code": "200",
+    "status": "true", 
+    "finish": "true",
+    "data": [ 
+        {
+            "internet" : "true"
+        } 
+    ]
+}

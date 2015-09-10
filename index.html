@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="pcfixwebApp">
+
+<head>
+    <title>PcFix Web</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <!--
+    <link rel="stylesheet" href="assets/css/compiled.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="app/assets/intruders.css">
+   
+-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/box.css">
+    <link rel="stylesheet" href="assets/css/font.css">
+
+    <link rel="stylesheet" href="assets/css/menu.css">
+
+    <link rel="stylesheet" href="assets/css/modal.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+    <link rel="stylesheet" href="app/assets/home.css">
+    <link rel="stylesheet" href="app/assets/repair.css">
+    <link rel="stylesheet" href="app/assets/channel.css">
+    <link rel="stylesheet" href="app/assets/intruders.css">
+    <link rel="stylesheet" href="app/assets/speedtest.css">
+    <link rel="stylesheet" href="app/assets/chat.css">
+    <link rel="stylesheet" href="app/assets/wifi.css">
+    <link rel="stylesheet" href="app/assets/information.css">
+
+    <style>
+        .repair_dialogmsg1,
+        .repair_dialogmsg2 {
+            color: #000000;
+            /* from vtr */
+            font-family: NeoSansStdLight;
+            /* from vtr */
+            font-size: 12pt;
+            /* from vtr */
+        }
+        
+        .main {
+            opacity: 0.1;
+            filter: alpha(opacity=10);
+            /* For IE8 and earlier */
+        }
+        
+        #mySpeddtest {
+            width: 648px;
+            height: 312px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        #my-iframe {
+            position: absolute;
+            top: -100px;
+            left: -100px;
+            width: 648px;
+            height: 312px;
+        }
+
+    </style>
+</head>
+
+<body ng-app ng-controller="httpController">
+
+    <div id="content" ng-controller="mainController">
+        <div appheader></div>
+
+        <div id="subContent">
+
+            <div id="menu">
+                <ul>
+                    <li style="margin-left:94px">
+                        <a href="#" ng-class="{ active: isActive('/')}">{{index_menutitleindex}}</a>
+                    </li>
+                    <li>
+                        <a href="#wifi" ng-class="{ active: isActive('/wifi')}">{{index_menutitlewifi}}</a>
+                    </li>
+                    <li>
+                        <a href="#information" ng-class="{ active: isActive('/information')}">{{index_menutitleinfo}}</a>
+                    </li>
+                </ul>
+            </div>
+            <!--
+            <div id="loadingPages"></div>
+            -->
+            <div id="main2" ng-class="main" ng-view onload="onViewLoad()"></div>
+
+            <div class="dialog_box" ng-show="hideRepair_dialogmsg1">
+                <span class="close">x</span>
+                <span id="repair_dialogmsg1" class="repair_dialogmsg1">{{repair_dialogmsg1}}</span>
+                <center>
+                    <button style="clear:both;" class="global_dialogboxbuttonaccept" ng-click="hideModalBy('hideRepair_dialogmsg1')">{{global_dialogboxbuttonaccept}}</button>
+                </center>
+            </div>
+
+            <div class="dialog_box" ng-show="hideRepair_dialogmsg2" ng-click="hideModalBy(repair_dialogmsg2)">
+                <span class="close">x</span>
+                <span id="repair_dialogmsg2" class="repair_dialogmsg2">{{repair_dialogmsg2}}</span>
+                <center>
+                    <button style="clear:both;" class="global_dialogboxbuttonaccept" ng-click="hideModalBy('hideRepair_dialogmsg2')">{{global_dialogboxbuttonaccept}}</button>
+                </center>
+            </div>
+
+            <div appfooter></div>
+
+        </div>
+
+
+    </div>
+
+    <script>
+        //window.location = "http://localhost:8888/PcfixWeb/#/";
+        //    window.location = "http://127.0.0.1:8081/#/";
+
+    </script>
+    <!--    
+    <script src="config.js"></script>
+    <script src="dest/concat.js"></script>
+-->
+    <script src="config.js"></script>
+
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/language.js"></script>
+
+    <script src="assets/libs/swfobject.js"></script>
+    <script src="assets/libs/browserdetect.js"></script>
+    <script src="assets/libs/functions_v3.js"></script>
+
+
+    <script src="assets/libs/angular.min.js"></script>
+
+    <script src="assets/libs/angular-route.js"></script>
+    <script src="assets/libs/angular-sanitize.js"></script>
+
+    <script src="assets/libs/standalone-framework.js"></script>
+    <script src="assets/libs/highcharts.js"></script>
+    <script src="assets/libs/highcharts-ng.min.js"></script>
+
+    <!--
+    <script src="assets/libs/highcharts.js"></script>
+    <script src="assets/libs/highcharts-more.js"></script>
+    -->
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/controller.js"></script>
+
+    <script src="app/components/index/home/homeService.js"></script>
+    <script src="app/components/index/home/homeController.js"></script>
+
+    <script src="app/components/index/repair/repairService.js"></script>
+    <script src="app/components/index/repair/repairController.js"></script>
+
+    <script src="app/components/index/channel/channelController.js"></script>
+
+    <script src="app/components/index/intruders/intrudersService.js"></script>
+    <script src="app/components/index/intruders/intrudersController.js"></script>
+
+    <script src="app/components/index/speedtest/speedtestController.js"></script>
+    <script src="app/components/index/chat/chatController.js"></script>
+    <script src="app/components/wifi/wifiController.js"></script>
+
+    <script src="app/components/information/informationService.js"></script>
+    <script src="app/components/information/informationController.js"></script>
+
+</body>
+
+</html>

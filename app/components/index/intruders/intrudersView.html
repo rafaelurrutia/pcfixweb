@@ -1,0 +1,148 @@
+<!-- MODAL1-->
+<div class="dialog_box" style="width:440px; height:150px" ng-show="hideIntruders_dialogmsg1">
+    <span class="close">x</span>
+
+    <span class="repair_dialogmsg1">Para proteger tu red te recomendamos cambiar el nombre y la contraseña de ésta.</span><br><br>
+    <span class="repair_dialogmsg1">¿Deseas hacerlo ahora? </span>
+    
+
+    <span id="repair_dialogmsg1" class="repair_dialogmsg1"></span>
+
+    <center>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept red" ng-click="hideIntruders_content={'background-color':'#ffffff','opacity': '1'}; hideIntruders_dialogmsg1=false;">Cancelar</button>
+        <button style="clear:both;" class="global_dialogboxbuttonaccept" ng-click="wifi()">Cambiar nombre y contraseña Wifi</button>
+    </center>
+
+</div>
+<!-- FIN MODAL1-->
+<div id="sectionIntruders_static" style="margin-top: 25px; height:100px" ng-style="hideIntruders_content">
+
+    <div id="index_repair" ng-class="repairSectionClass" class="index_box" ng-click="gotoRepair()">
+
+        <div id="" ng-class="repairSectionClassHead">
+            <span class="index_titlestep1">{{index_titlestep1}}</span>
+            <br>
+            <span class="index_titlerepair">{{index_titlerepair}}</span>
+        </div>
+
+
+
+    </div>
+
+    <div id="" ng-class="channelSectionClass" class="index_box" ng-click="gotoChannel()">
+
+        <div id="" ng-class="channelSectionClassHead">
+            <span class="index_titlestep2">{{index_titlestep2}}</span>
+            <br>
+            <span class="index_titlechannel">{{index_titlechannel}}</span>
+        </div>
+
+
+
+    </div>
+
+    <div id="" ng-class="intrudersSectionClass">
+
+        <div id="" ng-class="intrudersSectionClassHead">
+            <span class="index_titlestep3">{{index_titlestep3}}</span>
+            <br>
+            <span class="index_titleintruders">{{index_titleintruders}}</span>
+        </div>
+
+
+
+    </div>
+
+    <div id="" ng-class="speedtestSectionClass" ng-click="gotoSpeedtest()">
+
+        <div id="" ng-class="speedtestSectionClassHead">
+            <span class="index_titlestep4">{{index_titlestep4}}</span>
+            <br>
+            <span class="index_titlespeedtest">{{index_titlespeedtest}}</span>
+        </div>
+
+
+
+    </div>
+
+    <div id="" ng-class="chatSectionClass" ng-click="gotoChat()">
+
+        <div id="" ng-class="chatSectionClassHead">
+            <span class="index_titlestep5">{{index_titlestep5}}</span>
+            <br>
+            <span class="index_titlechat">{{index_titlechat}}</span>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+<div id="sectionIntruders_1" ng-show="sectionIntruders_1" style="margin-top:58px;height:auto;" ng-style="hideIntruders_content">
+
+    <div style="">
+        <center>
+            <span id="repair_title" class="repair_title">{{intruders_title}}</span>
+        </center>
+    </div>
+
+    <div style="margin-top: 33px;">
+        <center>
+            <span id="repair_description" class="repair_description">{{intruders_description}}</span>
+        </center>
+    </div>
+
+    <div style="">
+        <center>
+            <button id="global_buttonbegin" class="global_buttonbegin" ng-click="showElement('sectionIntruders_2'); getIntruders()">{{global_buttonbeginscan}}</button>
+        </center>
+    </div>
+
+</div>
+
+<div id="sectionIntruders_2" ng-show="sectionIntruders_2" ng-style="hideIntruders_content">
+
+    <div id="intruders_finddevices">
+        <center>
+            <span class="intruders_finddevices">{{intruders_finddevices}}</span>
+        </center>
+    </div>
+    <div style="height:230px;">
+        <center>
+            <table id="intruders_table" class="" cellspacing="0">
+                <thead valign="middle" align="center">
+                    <tr>
+                        <th>{{intruders_nameequipment}}</th>
+                        <th>{{intruders_ipaddress}}</th>
+                        <th>{{intruders_ipmac}}</th>
+                        <th>{{intruders_namemanufacturer}}</th>
+                    </tr>
+                </thead>
+                <tbody valign="middle" align="center">
+                    <div id="loadingTable" ng-show="loadingTable">
+                        <img class="intrudersImage" src="assets/img/iconoEspera.gif" />
+                    </div>
+
+                    <tr ng-repeat="intruder in intruders">
+                        <td>{{intruder.namehost}}</td>
+                        <td>{{intruder.ip}}</td>
+                        <td>{{intruder.mac}}</td>
+                        <td>{{intruder.manufacturer}}</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </center>
+    </div>
+
+    <div style="">
+        <center>
+            <button id="global_buttongobackhistorical" class="global_buttongobackhistorical" ng-show="sectionIntruders_global_buttoncancelar" ng-click="cancelgetIntruders">{{global_buttoncancelar}}</button>
+            <button style="margin-right:58px;" id="global_buttongobackhistorical" class="global_buttongobackhistorical" ng-show="sectionIntruders_global_buttonbacktotop" ng-click="home()">Volver al inicio</button>
+            <button id="global_buttonbegin" class="global_buttonbegin" ng-show="sectionIntruders_global_buttonequipmentidonotknow" ng-click="hideIntruders_dialogmsg1=true; hideIntruders_content={'background-color':'#ffffff','opacity': '0.1'};">Hay equipos que no conozco</button>
+        </center>
+    </div>
+
+
+</div>

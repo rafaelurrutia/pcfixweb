@@ -1,0 +1,136 @@
+<div class="dialog_box" ng-show="hideInformation_dialogmsg1" style="height:230px; width:340px;">
+    <span class="close" ng-click="hideInformation_dialogmsg1=false; hideInformation_content={}">x</span>
+
+    <center>
+        <span id="repair_dialogmsg1" class="repair_dialogmsg1">{{info_cardnet}}</span>
+        <br>
+        <br>
+        <div class="nameos" data-ng-repeat="x in info_cardnets" style="color:#3d3d3d;">
+            [{{x.mac}}] {{x.name}}
+        </div>
+    </center>
+</div>
+
+<div class="dialog_box" ng-show="hideInformation_dialogmsg2" style="height:230px; width:340px;">
+    <span class="close" ng-click="hideInformation_dialogmsg2=false; hideInformation_content={}">x</span>
+
+    <center>
+        <span id="repair_dialogmsg1" class="repair_dialogmsg1">{{info_dialogboxtitleantivirus}}</span>
+        <br>
+        <br>
+        <table id="information_table">
+            <thead valign="middle" align="left">
+                <tr>
+                    <th>{{info_dialogboxnameantivirus}}</th>
+                    <th>{{info_dialogboxstate}}</th>
+                </tr>
+            </thead>
+            <tbody valign="middle" align="left">
+
+                <tr ng-repeat="info_antiviru in info_antivirus">
+                    <td rowspan="2">{{info_antiviru.title}}</td>
+                    <td style="border-bottom-color:#ffffff;">{{info_antiviru.status}}</td>
+                </tr>
+                <tr ng-repeat="info_antiviru in info_antivirus">
+                    <td>{{info_antiviru.needUpgrade}}</td>
+
+                </tr>
+
+
+                <!--
+                <tr>
+                    <td rowspan="2">panda</td>
+                    <td style="border-bottom-color:#ffffff;">{{info_dialogboxoff}}</td>
+                </tr>
+                <tr>
+                    <td>{{info_dialogboxoutdated}}</td>
+                </tr>
+                -->
+            </tbody>
+        </table>
+
+    </center>
+</div>
+
+<div align="center" ng-style="hideInformation_content">
+
+    <div id="information_title">
+        <center>
+            <span class="information_title">Información del equipo</span>
+        </center>
+    </div>
+
+    <div style="margin-top:30px;">
+        <center>
+            <table width="670" style="height:250px;">
+                <tr>
+                    <td width="335" style="padding-left:15px;" class="table_bordermiddle table_borderbottom">
+                        <div id="information_image">
+                            <img src="assets/img/elementos-47.png" alt="" width="35" height="30">
+                        </div>
+                        <div id="information_text">
+                            <div class="info_titleso">{{info_titleso}}</div>
+                            <div id="nameos" class="nameos">{{nameos}} {{packos}}</div>
+                        </div>
+                    </td>
+                    <td width="335" style="padding-left:15px;" class="table_borderbottom">
+                        <div id="information_image">
+                            <img src="assets/img/elementos-48.png" alt="" width="35" height="30">
+                        </div>
+                        <div id="information_text">
+                            <div class="info_security">{{info_security}}</div>
+                            <div id="nameos" class="nameos">{{info_firewallactivate}}</div>
+                            <div class="nameos">
+                                <a href="" ng-click="hideInformation_dialogmsg2=true; hideInformation_content={'background-color':'#ffffff','opacity': '0.1'}">{{info_seeeverything}}</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="335" style="padding-left:15px;" class="table_bordermiddle">
+                        <div id="information_image">
+                            <img src="assets/img/elementos-49.png" alt="" width="35" height="30">
+                        </div>
+                        <div id="information_text">
+                            <div class="info_cardnet">{{info_cardnet}} <a class="nameos" href="" ng-click="hideInformation_dialogmsg1=true; hideInformation_content={'background-color':'#ffffff','opacity': '0.1'}">ver todo</a></div>
+
+                            <div class="nameos" data-ng-repeat="x in info_cardnets | limitTo: 3">
+                                [{{x.mac}}] {{x.name}}
+                            </div>
+
+
+                        </div>
+                    </td>
+                    <td width="335" style="padding-left:15px;">
+                        <div id="information_image">
+                            <img src="assets/img/elementos-50.png" alt="" width="35" height="30">
+                        </div>
+                        <div id="information_text">
+                            <div class="info_iphardware">{{info_iphardware}}
+                                <img src="assets/img/elementos-51.png" style="margin-left:50px" alt="" width="23" height="20"></div>
+
+                            <div>
+                                <span class="nameos">{{info_wirelessnetworkconnection}}</span>
+                                <br>
+                                <span class="nameos">{{info_IPv4}}</span>
+                                <br>
+                                <span class="nameos">{{info_gateway}}</span>
+                                <br>
+                                <span class="nameos">{{info_IPv6}}</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <div style="clear:both;">
+        <center>
+            <button id="global_buttonbacktotop" class="global_buttonbacktotop" ng-click="home()">{{global_buttonbacktotop}}</button>
+        </center>
+    </div>
+
+</div>
+<!--
+uncle fletch la burguesia
+-->

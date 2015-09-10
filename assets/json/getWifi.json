@@ -1,0 +1,27 @@
+{
+    "code": "200",
+    "status": "true",
+    "finish": "true",
+    "data": [
+        {
+            "age": "0.0020001",
+            "color": "Color [Aqua]",
+            "connected": "False",
+            "frequency": "2412000",
+            "ies": "BSW.Comm.CheckExtraDataWiFi+TypeNSettings",
+            "istypen": "True",
+            "lastseentimestamp": "7/8/2015 11:35:57 AM",
+            "mac": "001DD4D37390",
+            "maxrate": "0",
+            "primarychannel": "1",
+            "rssi": "-51",
+            "secondondarychannel": "0",
+            "security": "WPA2-Personal",
+            "signal": "99",
+            "ssid": "ARRIS-7392",
+            "timestamp": "7/8/2015 11:35:57 AM",
+            "widechannel": "False",
+            "password": "lalal"
+      }
+   ]
+}

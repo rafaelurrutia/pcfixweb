@@ -1,0 +1,233 @@
+
+.index_repairEnable{
+    background-color: #123985;
+    cursor:pointer;
+}
+/*
+.index_channelEnable{
+    background-color: #006fa1;
+    cursor:pointer;
+}
+.index_intrudersEnable{
+    background-color: #2dbdb6;
+    cursor:pointer;
+}
+.index_speedtestEnable{
+    background-color: #6cc17b;
+    cursor:pointer;
+}
+.index_chatEnable{
+    background-color: #6cc17b;
+    cursor:pointer;
+}
+
+.index_repairDisable, .index_channelDisable,.index_intrudersDisable,.index_speedtestDisable,.index_chatDisable{
+    background-color: #d3d3d3;
+    cursor:default;
+}
+*/
+#index_repair{
+    width: 144px;
+    margin-left: 14px;
+    cursor:pointer;
+    float: left;
+}
+            
+.index_repairHead{
+    position: relative;
+    background-color: #123985;
+    color: #ffffff;
+    height: 42px;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+            
+.index_repairHead:after{
+    content: "";
+    position: absolute;
+    top: 0%;
+    border-style: solid;
+    border-width: 21px 0 21px 12px;
+    border-color: transparent transparent transparent #123985;
+    right: -12px;
+}
+            
+#index_repairContent{
+    background-color: #123985;
+    color: #ffffff;
+    height: 115px;
+    padding-left: 15px;
+}
+
+/* optimizar canal */
+#index_channel{
+    width: 144px;
+    margin-left: 14px;
+    cursor:pointer;
+    float: left;
+}
+            
+#index_channelHead{
+    position: relative;
+    background-color: #006fa1;
+    color: #ffffff;
+    height: 42px;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+            
+#index_channelHead:after{
+    content: "";
+    position: absolute;
+    top: 0%;
+    border-style: solid;
+    border-width: 21px 0 21px 12px;
+    border-color: transparent transparent transparent #006fa1;
+    right: -12px;
+}
+            
+#index_channelHead:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    border-style: solid;
+    border-width: 21px 0 21px 12px;
+    border-color: transparent transparent transparent #ffffff;
+    right: 132px;
+}
+            
+#index_channelContent{
+    background-color: #006fa1;
+    color: #ffffff;
+    height: 115px;
+    padding-left: 15px;
+}
+
+/* detectar intrusos */
+#index_intruders{
+    width: 144px;
+    margin-left: 14px;
+    cursor:pointer;
+    float: left;
+}
+            
+#index_intrudersHead{
+    position: relative;
+    background-color: #2dbdb6;
+    color: #ffffff;
+    height: 42px;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+            
+#index_intrudersHead:after{
+    content: "";
+    position: absolute;
+    top: 0%;
+    border-style: solid;
+    border-width: 21px 0 21px 12px;
+    border-color: transparent transparent transparent #2dbdb6;
+    right: -12px;
+}
+            
+#index_intrudersHead:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    border-style: solid;
+    border-width: 21px 0 21px 12px;
+    border-color: transparent transparent transparent #ffffff;
+    right: 132px;
+}
+            
+#index_intrudersContent{
+    background-color: #2dbdb6;
+    color: #ffffff;
+    height: 115px;
+    padding-left: 15px;
+}
+
+/* test de velocidad */
+#index_speedtest{
+    width: 144px;
+    margin-left: 14px;
+    cursor:pointer;
+    float: left;
+}
+            
+#index_speedtestHead{
+    position: relative;
+    background-color: #6cc17b;
+    color: #ffffff;
+    height: 42px;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+            
+#index_speedtestHead:after{
+    content: "";
+    position: absolute;
+    top: 0%;
+    border-style: solid;
+    border-width: 21px 0 21px 12px;
+    border-color: transparent transparent transparent #6cc17b;
+    right: -12px;
+}
+            
+#index_speedtestHead:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    border-style: solid;
+    border-width: 21px 0 21px 12px;
+    border-color: transparent transparent transparent #ffffff;
+    right: 132px;
+}
+            
+#index_speedtestContent{
+    background-color: #6cc17b;
+    color: #ffffff;
+    height: 115px;
+    padding-left: 15px;
+}
+
+/* chat */
+#index_chat{
+    width: 144px;
+    margin-left: 14px;
+    cursor:pointer;
+    float: left;
+}
+            
+#index_chatHead{
+    position: relative;
+    background-color: #6cc17b;
+    color: #ffffff;
+    height: 42px;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+            
+#index_chatHead:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    border-style: solid;
+    border-width: 21px 0 21px 12px;
+    border-color: transparent transparent transparent #ffffff;
+    right: 132px;
+}
+            
+#index_chatContent{
+    position: relative; /* agregar para que la imagen se posicione de acuerdo a la propiedad #index_chatContent img */
+    background-color: #6cc17b;
+    color: #ffffff;
+    height: 115px;
+    padding-left: 15px;
+}
+
+#index_chatContent img {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}

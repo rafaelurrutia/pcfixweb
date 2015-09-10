@@ -1,0 +1,70 @@
+.dialog_box{
+    width: 254px; /* from vtr */
+    height: 129px; /* from vtr */
+    background-color: #ffffff; /* from vtr */
+    position: absolute; /* o relative */
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1pt;
+    padding-top: 30px;
+    padding-left: 18px;
+    z-index: 9;
+}
+
+.global_dialogboxbuttonaccept{
+    background-color: #2dbdb6; /* from vtr */
+    color: #ffffff; /* from vtr */
+    font-family: NeoSansStdMedium; /* from vtr */
+    font-size: 12pt; /* from vtr */
+    border-style: solid; /* from vtr */
+    border-color: #28a59c; /* from vtr */
+    border-width: 1pt; /* from vtr */
+    margin-top: 32px; /* from vtr */
+    height: 27px; /* from vtr */
+    padding-left: 13px; /* from vtr */
+    padding-right: 13px; /* from vtr */
+
+    display: inline-flex;
+    align-items: center; /* cross axis */
+    justify-content: center; /* main axis */
+
+    line-height: 1; /* reset */
+    vertical-align: middle;
+}   
+            
+.global_dialogboxbuttonaccept:active {
+    background-color: #28a59c; /* from vtr */
+}
+.global_dialogboxbuttonaccept:hover {
+    background-color: #28a59c; /* from vtr */
+}  
+
+.close {
+    color: #000000;
+    line-height: 25px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 2px;
+    width: 7px;
+    height: 7px;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: NeoSansStdLight;
+    font-size: 20px;
+}
+
+.red{
+    background-color: #ed0f69;
+    border-color: #a80f63;
+    margin-right: 11px;
+}
+.red:hover{
+    background-color: #a80f63;
+}

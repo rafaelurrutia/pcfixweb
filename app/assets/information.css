@@ -1,0 +1,128 @@
+#information_title {
+    margin-top: 77px;
+    text-align: center;
+}
+.information_title {
+    font-family: NeoSansStdLight;
+    font-size: 16pt;
+    color: #2d2d2d;
+}
+#information_main {
+    margin-top: 77px;
+    width: 550px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fa6800;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#information_section {
+    width: 250px;
+    height: 120px;
+    float: left;
+}
+#information_image {
+    width: 40px;
+    float: left;
+}
+#information_image {
+    width: 50px;
+    float: left;
+}
+#information_section2 {
+    width: 50px;
+    float: left;
+}
+#information_subtitle {
+    width: 50px;
+    float: left;
+}
+#information_text {
+    width: 250px;
+    float: left;
+}
+.border_bottom {
+    border-bottom-style: solid;
+    border-bottom-color: #d3d3d3;
+    border-bottom-width: 1px;
+}
+.repair_description {
+    font-family: NeoSansStdLight;
+    font-size: 14pt;
+    color: #2d2d2d;
+}
+#global_buttonbacktotop {
+    background-color: #ed0f69;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #a80f63;
+    height: 37px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 40px;
+}
+.global_buttonbacktotop {
+    font-family: NeoSansStdMedium;
+    font-size: 16pt;
+    color: #ffffff;
+}
+.info_titleso,
+.info_security,
+.info_cardnet,
+.info_iphardware {
+    font-family: NeoSansStdLight;
+    font-size: 14pt;
+    color: #2d2d2d;
+}
+.nameos {
+    font-family: NeoSansStdLight;
+    font-size: 10pt;
+    color: #909090;
+}
+#nameos {
+    margin-top: 10px;
+}
+.table_bordermiddle {
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #909090;
+}
+.table_borderbottom {
+    box-shadow: 0px 35px 5px -35px #909090;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #2dbdb6;
+}
+#information_table {
+    width: 300px;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #e5e5e5;
+    font-family: NeoSansStdLight;
+    font-size: 11pt;
+    color: #2d2d2d;
+}
+#information_table tbody {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#information_table > tbody > tr > td {
+    height: 30px;
+}
+#information_table > thead > tr {
+    height: 30px;
+}
+#information_table thead tr th {
+    border-bottom-style: solid;
+    border-bottom-color: #e5e5e5;
+    border-bottom-width: 1pt;
+}
+#information_table tbody tr td {
+    border-bottom-style: solid;
+    border-bottom-color: #e5e5e5;
+    border-bottom-width: 1pt;
+}
